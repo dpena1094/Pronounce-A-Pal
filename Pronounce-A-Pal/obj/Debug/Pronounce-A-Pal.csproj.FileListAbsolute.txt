@@ -18,7 +18,6 @@ C:\Users\dpena\Documents\Visual Studio 2017\Projects\Pronounce-A-Pal\Pronounce-A
 C:\Users\dpena\Documents\Visual Studio 2017\Projects\Pronounce-A-Pal\Pronounce-A-Pal\obj\Debug\uploadflags.txt
 C:\Users\dpena\Documents\Visual Studio 2017\Projects\Pronounce-A-Pal\Pronounce-A-Pal\bin\Debug\Pronounce-A-Pal.dll.mdb
 C:\Users\dpena\Documents\Visual Studio 2017\Projects\Pronounce-A-Pal\Pronounce-A-Pal\obj\Debug\android\assets\Pronounce-A-Pal.dll.mdb
-C:\Users\dpena\Documents\Visual Studio 2017\Projects\Pronounce-A-Pal\Pronounce-A-Pal\bin\Debug\Pronounce-A-Pal.dll
 bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb
 bin\Debug\System.Core.pdb
@@ -40,3 +39,6 @@ obj\Debug\linksrc\System.Runtime.Serialization.pdb
 obj\Debug\linksrc\System.ServiceModel.Internals.pdb
 obj\Debug\linksrc\Mono.Security.pdb
 obj\Debug\linksrc\System.ComponentModel.Composition.pdb
+C:\Users\eddyc\Documents\Pronounce-A-Pal\Pronounce-A-Pal\obj\Debug\Pronounce-A-Pal.csprojResolveAssemblyReference.cache
+C:\Users\eddyc\Documents\Pronounce-A-Pal\Pronounce-A-Pal\obj\Debug\Pronounce-A-Pal.dll
+C:\Users\eddyc\Documents\Pronounce-A-Pal\Pronounce-A-Pal\obj\Debug\Pronounce-A-Pal.pdb
