@@ -1,0 +1,4 @@
+Pronounce_A_Pal.MainActivity, Pronounce-A-Pal;md53c7a68f15519c514e7e6544b93b06a8a.MainActivity
+Pronounce_A_Pal.MainActivity, Pronounce-A-Pal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53c7a68f15519c514e7e6544b93b06a8a.MainActivity
+Pronounce_A_Pal.MainActivity;md53c7a68f15519c514e7e6544b93b06a8a.MainActivity
+pronounce_a_pal.MainActivity;md53c7a68f15519c514e7e6544b93b06a8a.MainActivity
