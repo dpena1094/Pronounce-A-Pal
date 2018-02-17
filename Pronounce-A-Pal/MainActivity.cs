@@ -1,4 +1,5 @@
 ﻿using Android.App;
+using Android.Content;
 using Android.Widget;
 using Android.OS;
 
@@ -16,8 +17,28 @@ namespace Pronounce_A_Pal {
 			// Get our button from the layout resource,
 			// and attach an event to it
 			var button = FindViewById<Button>(Resource.Id.myButton);
+			var splashButton = FindViewById<Button>(Resource.Id.SplashButton);
+			var landingButton = FindViewById<Button>(Resource.Id.LandingButton);
+			var evaluationButton = FindViewById<Button>(Resource.Id.EvaluationButton);
+			var trainingButton = FindViewById<Button>(Resource.Id.TrainingButton);
 
 			button.Click += delegate { button.Text = $"{_count++} clicks!"; };
+			splashButton.Click += delegate {
+				var activity = new Intent(this, typeof(SplashActivity));
+				StartActivity(activity);
+			};
+			landingButton.Click += delegate {
+				var activity = new Intent(this, typeof(LandingActivity));
+				StartActivity(activity);
+			};
+			evaluationButton.Click += delegate {
+				var activity = new Intent(this, typeof(EvaluationActivity));
+				StartActivity(activity);
+			};
+			trainingButton.Click += delegate {
+				var activity = new Intent(this, typeof(TrainingActivity));
+				StartActivity(activity);
+			};
 		}
 	}
 }
