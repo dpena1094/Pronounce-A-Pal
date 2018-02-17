@@ -77,7 +77,19 @@ namespace Pronounce_A_Pal
 		{
 			
 			// aapt resource value: 0x7f040000
-			public const int Main = 2130968576;
+			public const int Evaluation = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int Landing = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int Main = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int Splash = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int Training = 2130968580;
 			
 			static Layout()
 			{
