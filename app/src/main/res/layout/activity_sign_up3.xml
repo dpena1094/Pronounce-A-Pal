@@ -8,7 +8,7 @@
     tools:context="edu.csun.team5.pronounce_a_pal.SignUp3Activity">
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/toggleButtonSignUp3Button"
         android:layout_width="224dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="165dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ToggleButton
-        android:id="@+id/toggleButton2"
+        android:id="@+id/toggleButton2SignUp3Button"
         android:layout_width="224dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="224dp"

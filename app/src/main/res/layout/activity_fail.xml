@@ -8,7 +8,7 @@
     tools:context="edu.csun.team5.pronounce_a_pal.FailActivity">
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/toggleButtonFailButton"
         android:layout_width="230dp"
         android:layout_height="49dp"
         android:layout_marginBottom="27dp"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ToggleButton
-        android:id="@+id/toggleButton2"
+        android:id="@+id/toggleButton2FailButton"
         android:layout_width="0dp"
         android:layout_height="46dp"
         android:layout_marginBottom="41dp"
@@ -38,7 +38,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ToggleButton
-        android:id="@+id/toggleButton3"
+        android:id="@+id/toggleButton3FailButton"
         android:layout_width="104dp"
         android:layout_height="50dp"
         android:layout_marginBottom="41dp"

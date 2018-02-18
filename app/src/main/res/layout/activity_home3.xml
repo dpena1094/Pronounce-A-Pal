@@ -8,7 +8,7 @@
     tools:context="edu.csun.team5.pronounce_a_pal.Home3Activity">
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/toggleButtonHome3Button"
         android:layout_width="76dp"
         android:layout_height="46dp"
         android:layout_marginBottom="67dp"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ToggleButton
-        android:id="@+id/toggleButton2"
+        android:id="@+id/toggleButton2Home3Button"
         android:layout_width="92dp"
         android:layout_height="47dp"
         android:layout_marginBottom="66dp"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/toggleButton3" />
 
     <ToggleButton
-        android:id="@+id/toggleButton3"
+        android:id="@+id/toggleButton3Home3Button"
         android:layout_width="87dp"
         android:layout_height="0dp"
         android:layout_marginBottom="53dp"
@@ -53,7 +53,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ToggleButton
-        android:id="@+id/toggleButton4"
+        android:id="@+id/toggleButton4Home3Button"
         android:layout_width="94dp"
         android:layout_height="45dp"
         android:layout_marginBottom="115dp"
@@ -67,7 +67,7 @@
         app:layout_constraintTop_toBottomOf="@+id/toggleButton2" />
 
     <ToggleButton
-        android:id="@+id/toggleButton5"
+        android:id="@+id/toggleButton5Home3Button"
         android:layout_width="0dp"
         android:layout_height="45dp"
         android:layout_marginBottom="160dp"

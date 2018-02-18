@@ -8,7 +8,7 @@
     tools:context="edu.csun.team5.pronounce_a_pal.Home1Activity">
 
     <ToggleButton
-        android:id="@+id/toggleButton2"
+        android:id="@+id/toggleButtonHome1Button"
         android:layout_width="99dp"
         android:layout_height="51dp"
         android:layout_marginBottom="95dp"
@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ToggleButton
-        android:id="@+id/toggleButton3"
+        android:id="@+id/toggleButton2Home1Button"
         android:layout_width="100dp"
         android:layout_height="53dp"
         android:layout_marginBottom="49dp"

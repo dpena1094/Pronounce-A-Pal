@@ -8,7 +8,7 @@
     tools:context="edu.csun.team5.pronounce_a_pal.SignUp5Activity">
 
     <ToggleButton
-        android:id="@+id/toggleButton2"
+        android:id="@+id/toggleButtonSignUp5Button"
         android:layout_width="0dp"
         android:layout_height="64dp"
         android:layout_marginBottom="115dp"

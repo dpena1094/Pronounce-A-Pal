@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Pronounce-A-Pal</string>
+    <string name="title_activity_record_initial26">RecordInitial26Activity</string>
+    <string name="title_activity_record_initial6">RecordInitial6Activity</string>
+    <string name="title_activity_record_initial8">RecordInitial8Activity</string>
+    <string name="title_activity_record_initial10">RecordInitial10Activity</string>
 </resources>

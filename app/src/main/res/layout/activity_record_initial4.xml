@@ -9,7 +9,7 @@
     tools:layout_editor_absoluteY="25dp">
 
     <ToggleButton
-        android:id="@+id/toggleButtonRecordInitial5Button"
+        android:id="@+id/toggleButtonRecordInitial4Button"
         android:layout_width="0dp"
         android:layout_height="57dp"
         android:layout_marginBottom="240dp"

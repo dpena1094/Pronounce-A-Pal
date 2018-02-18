@@ -38,7 +38,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ToggleButton
-        android:id="@+id/toggleButton5ActivityRecord11Button"
+        android:id="@+id/toggleButton3ActivityRecord11Button"
         android:layout_width="125dp"
         android:layout_height="44dp"
         android:layout_marginBottom="30dp"
