@@ -15,6 +15,15 @@ public class LandingActivity extends AppCompatActivity {
 
         final Button signupButton = findViewById(R.id.LandingSignupButton);
         final Button loginButton = findViewById(R.id.LandingLoginButton);
+        final Button startSpeechButton = findViewById(R.id.myButton);
+
+        startSpeechButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LandingActivity.this, TrainingActivity.class);//view.getContext(), TrainingActivity.class);
+                startActivity(intent);
+            }
+        });
 
         signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
