@@ -9,12 +9,14 @@
 
     <Button
         android:id="@+id/myButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="match_parent"
-        android:layout_height="47.0dp"
-        android:layout_marginTop="16dp"
-        android:text="Speech Evaluation"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="28dp" />
+        android:layout_height="87dp"
+        android:layout_marginTop="82dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/LandingSignupButton"
