@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/landing_page"
     tools:context="edu.csun.team5.pronounce_a_pal.LandingActivity">
 
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="47.0dp"
+        android:layout_marginTop="400dp"
+        android:text="Speech Evaluation"
+        android:layout_marginBottom="127.0dp" />
+
     <ToggleButton
-        android:id="@+id/toggleButtonLandingPageButton"
+        android:id="@+id/LandingLoginButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="136dp"
@@ -17,13 +24,12 @@
         android:alpha="0.0
 "
         android:text="ToggleButton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="410dp" />
+
 
     <ToggleButton
-        android:id="@+id/toggleButton2LandingPageButton"
+        android:id="@+id/LandingSignupButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="192dp"
@@ -31,9 +37,5 @@
         android:layout_marginStart="40dp"
         android:alpha="0.0
 "
-        android:text="ToggleButton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:text="ToggleButton"/>
 </android.support.constraint.ConstraintLayout>
