@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/home__1"
-    tools:context="edu.csun.team5.pronounce_a_pal.SignUp2Activity"
-    tools:layout_editor_absoluteY="25dp">
+    tools:context="edu.csun.team5.pronounce_a_pal.Home1Activity">
 
     <ToggleButton
         android:id="@+id/toggleButton2"
@@ -36,6 +35,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/toggleButton2"
         app:layout_constraintTop_toTopOf="@+id/toggleButton2" />
-
 
 </android.support.constraint.ConstraintLayout>

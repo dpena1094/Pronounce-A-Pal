@@ -26,7 +26,17 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".SignUp2Activity" />
         <activity android:name=".SignUp1Activity" />
-        <activity android:name=".SignUp3Activity"></activity>
+        <activity android:name=".SignUp3Activity" />
+        <activity android:name=".Home1Activity" />
+        <activity android:name=".Home2Activity" />
+        <activity android:name=".Home3Activity" />
+        <activity android:name=".FailActivity" />
+        <activity android:name=".Fail1Activity" />
+        <activity android:name=".SignUp4Activity" />
+        <activity android:name=".SignUp5Activity" />
+        <activity android:name=".SignUp6Activity" />
+        <activity android:name=".SignUp7Activity" />
+        <activity android:name=".SignUp8Activity"></activity>
     </application>
 
 </manifest>
