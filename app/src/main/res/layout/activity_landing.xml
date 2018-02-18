@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/sign_up"
     tools:context="edu.csun.team5.pronounce_a_pal.LandingActivity">
 
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="47.0dp"
+        android:layout_marginTop="400dp"
+        android:text="Speech Evaluation"
+        android:layout_marginBottom="127.0dp" />
+
+    <!-- Position goes to (0,0) when starting.
     <ToggleButton
         android:id="@+id/toggleButton"
         android:layout_width="303dp"
@@ -14,4 +22,5 @@
         android:text="ToggleButton"
         tools:layout_editor_absoluteX="41dp"
         tools:layout_editor_absoluteY="410dp" />
+        -->
 </android.support.constraint.ConstraintLayout>
