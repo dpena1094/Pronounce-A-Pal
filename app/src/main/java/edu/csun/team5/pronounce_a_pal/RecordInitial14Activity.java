@@ -18,7 +18,7 @@ public class RecordInitial14Activity extends AppCompatActivity {
 
         startSpeechButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent = new Intent(RecordInitial14Activity.this, SignUp4Activity.class);//view.getContext(), TrainingActivity.class);
+                Intent intent = new Intent(RecordInitial14Activity.this, RecordInitial13Activity.class);//view.getContext(), TrainingActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -27,7 +27,7 @@ public class RecordInitial14Activity extends AppCompatActivity {
 
         startSpeechButton2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent = new Intent(RecordInitial14Activity.this, RecordInitial13Activity.class);//view.getContext(), TrainingActivity.class);
+                Intent intent = new Intent(RecordInitial14Activity.this, SignUp4Activity.class);//view.getContext(), TrainingActivity.class);
                 startActivity(intent);
                 finish();
             }
