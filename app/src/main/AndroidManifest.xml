@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".LandingActivity" />
-        <activity android:name=".MainActivity" />
+        <!--<activity android:name=".MainActivity" />-->
         <activity android:name=".TrainingActivity" />
         <activity android:name=".EvaluationActivity" />
         <activity android:name=".ResultsActivity" />
