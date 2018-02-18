@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Pronounce-A-Pal</string>
+    <string name="title_activity_record_initial26">RecordInitial26Activity</string>
+    <string name="title_activity_record_initial6">RecordInitial6Activity</string>
+    <string name="title_activity_record_initial8">RecordInitial8Activity</string>
+    <string name="title_activity_record_initial10">RecordInitial10Activity</string>
+
 
 <!--    <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
@@ -7,4 +12,5 @@
     <string name="speech_prompt">Say something&#8230;</string>
     <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
     <string name="tap_on_mic">Tap on mic to speak</string>
+
 </resources>
