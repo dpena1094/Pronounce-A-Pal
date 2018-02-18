@@ -40,6 +40,37 @@
         <activity android:name=".SignUp6Activity" />
         <activity android:name=".SignUp7Activity" />
         <activity android:name=".SignUp8Activity" />
+        <activity android:name=".InitialActivity" />
+        <activity android:name=".RecordInitial2Activity" />
+        <activity android:name=".RecordInitial11Activity" />
+        <activity android:name=".RecordInitial12Activity" />
+        <activity
+            android:name=".RecordInitial26Activity"
+            android:label="@string/title_activity_record_initial26"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RecordInitial6Activity"
+            android:label="@string/title_activity_record_initial6"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".RecordInitial7Activity" />
+        <activity
+            android:name=".RecordInitial8Activity"
+            android:label="@string/title_activity_record_initial8"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".RecordInitial9Activity" />
+        <activity
+            android:name=".RecordInitial10Activity"
+            android:label="@string/title_activity_record_initial10"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".RecordInitial13Activity" />
+        <activity android:name=".RecordInitial14Activity" />
+        <activity android:name=".RecordInitial24Activity" />
+        <activity android:name=".RecordInitial25Activity" />
+        <activity android:name=".RecordInitial1Activity" />
+        <activity android:name=".RecordInitial3Activity" />
+        <activity android:name=".RecordInitial4Activity" />
+        <activity android:name=".RecordInitial5Activity" />
+        <activity android:name=".RecordInitial11Activity"></activity>
     </application>
 
 </manifest>
