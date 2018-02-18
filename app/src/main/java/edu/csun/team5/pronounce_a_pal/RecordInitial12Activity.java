@@ -12,7 +12,7 @@ public class RecordInitial12Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_record_initial25);
+        setContentView(R.layout.activity_record_initial12);
 
         final Button startSpeechButton = findViewById(R.id.toggleButtonRecordInitial12Button);
 
