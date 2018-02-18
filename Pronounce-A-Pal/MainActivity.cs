@@ -26,18 +26,22 @@ namespace Pronounce_A_Pal {
 			splashButton.Click += delegate {
 				var activity = new Intent(this, typeof(SplashActivity));
 				StartActivity(activity);
+				Finish();
 			};
 			landingButton.Click += delegate {
 				var activity = new Intent(this, typeof(LandingActivity));
 				StartActivity(activity);
+				Finish();
 			};
 			evaluationButton.Click += delegate {
 				var activity = new Intent(this, typeof(EvaluationActivity));
 				StartActivity(activity);
+				Finish();
 			};
 			trainingButton.Click += delegate {
 				var activity = new Intent(this, typeof(TrainingActivity));
 				StartActivity(activity);
+				Finish();
 			};
 		}
 	}
