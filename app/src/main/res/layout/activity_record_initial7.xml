@@ -4,19 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sign_up__8"
-    tools:context="edu.csun.team5.pronounce_a_pal.SignUp8Activity">
+    android:background="@drawable/record_initial_7"
+    tools:context="edu.csun.team5.pronounce_a_pal.SignUp2Activity"
+    tools:layout_editor_absoluteY="25dp">
 
     <ToggleButton
-        android:id="@+id/toggleButtonSignUp8"
-        android:layout_width="176dp"
-        android:layout_height="41dp"
-        android:layout_marginBottom="143dp"
+        android:id="@+id/toggleButtonRecordInitial17Button"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="244dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginStart="148dp"
         android:alpha="0.0
 "
         android:text="ToggleButton"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toggleButton2"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>
