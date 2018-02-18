@@ -16,7 +16,7 @@ namespace Pronounce_A_Pal {
 		protected override void OnCreate(Bundle savedInstanceState) {
 			base.OnCreate(savedInstanceState);
 
-			// Create your application here
+			// Create your application here.
 			SetContentView(Resource.Layout.Splash);
 		}
 	}
