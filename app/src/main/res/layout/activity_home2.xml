@@ -4,14 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD:app/src/main/res/layout/home__2.xml
-    android:background="@drawable/home_4"
-    tools:context="edu.csun.team5.pronounce_a_pal.SignUp2Activity"
-    tools:layout_editor_absoluteY="25dp">
-=======
     android:background="@drawable/home_2"
     tools:context="edu.csun.team5.pronounce_a_pal.Home2Activity">
->>>>>>> 8790bc200ee47881b59b513a24c299cc6bb3e226:app/src/main/res/layout/activity_home2.xml
 
     <ToggleButton
         android:id="@+id/toggleButton"
