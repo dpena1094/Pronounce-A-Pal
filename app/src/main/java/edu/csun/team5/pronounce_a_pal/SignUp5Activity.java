@@ -18,7 +18,7 @@ public class SignUp5Activity extends AppCompatActivity {
         continueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SignUp5Activity.this, RecordInitial1Activity.class);
+                Intent intent = new Intent(SignUp5Activity.this, RecordInitial3Activity.class);
                 startActivity(intent);
                 finish();
             }

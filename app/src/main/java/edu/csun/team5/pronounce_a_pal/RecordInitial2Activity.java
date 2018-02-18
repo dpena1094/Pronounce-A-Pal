@@ -18,7 +18,7 @@ public class RecordInitial2Activity extends AppCompatActivity {
 
         startSpeechButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent = new Intent(RecordInitial2Activity.this, RecordInitial5Activity.class);//view.getContext(), TrainingActivity.class);
+                Intent intent = new Intent(RecordInitial2Activity.this, RecordInitial9Activity.class);//view.getContext(), TrainingActivity.class);
                 startActivity(intent);
                 finish();
             }
