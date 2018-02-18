@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_up__7"
+    tools:context="edu.csun.team5.pronounce_a_pal.SignUp7Activity">
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="176dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="143dp"
+        android:alpha="0.0
+"
+        android:text="ToggleButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

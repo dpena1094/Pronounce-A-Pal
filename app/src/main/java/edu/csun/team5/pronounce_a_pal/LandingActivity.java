@@ -15,6 +15,7 @@ public class LandingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
 
+<<<<<<< HEAD
         startSpeechButton = (Button) findViewById(R.id.myButton);
 
         startSpeechButton.setOnClickListener(new View.OnClickListener() {
@@ -23,6 +24,26 @@ public class LandingActivity extends AppCompatActivity {
                 Intent starter = new Intent(LandingActivity.this, TrainingActivity.class);//view.getContext(), TrainingActivity.class);
 
                 startActivity(starter);
+=======
+        final Button signupButton = findViewById(R.id.SignupButton);
+        final Button loginButton = findViewById(R.id.LoginButton);
+
+        signupButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LandingActivity.this, SignUpActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LandingActivity.this, LoginActivity.class);
+                startActivity(intent);
+                finish();
+>>>>>>> c8e951168f8cb4572e26046c17451c8a7d931e6b
             }
         });
     }
