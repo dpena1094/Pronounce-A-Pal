@@ -6,29 +6,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-
 public class LandingActivity extends AppCompatActivity {
-
-    Button startSpeechButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
 
-        startSpeechButton = (Button) findViewById(R.id.myButton);
+        final Button signupButton = findViewById(R.id.LandingSignupButton);
+        final Button loginButton = findViewById(R.id.LandingLoginButton);
+        final Button startSpeechButton = findViewById(R.id.myButton);
 
         startSpeechButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent starter = new Intent(LandingActivity.this, TrainingActivity.class);//view.getContext(), TrainingActivity.class);
-
-                startActivity(starter);
+                Intent intent = new Intent(LandingActivity.this, TrainingActivity.class);//view.getContext(), TrainingActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
-
-        final Button signupButton = findViewById(R.id.SignupButton);
-        //final Button loginButton = findViewById(R.id.LoginButton);
 
         signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,13 +35,13 @@ public class LandingActivity extends AppCompatActivity {
             }
         });
 
-        /*loginButton.setOnClickListener(new View.OnClickListener() {
+        loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(LandingActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
-        });*/
+        });
     }
 }

@@ -9,7 +9,7 @@
     tools:layout_editor_absoluteY="25dp">
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/toggleButtonResult1Button"
         android:layout_width="231dp"
         android:layout_height="0dp"
         android:layout_marginBottom="51dp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ToggleButton
-        android:id="@+id/toggleButton4"
+        android:id="@+id/toggleButton2ButtonResult1Button"
         android:layout_width="99dp"
         android:layout_height="46dp"
         android:layout_marginBottom="46dp"
@@ -37,7 +37,7 @@
         app:layout_constraintTop_toBottomOf="@+id/toggleButton2" />
 
     <ToggleButton
-        android:id="@+id/toggleButton5"
+        android:id="@+id/toggleButton3ButtonResult1Button"
         android:layout_width="0dp"
         android:layout_height="43dp"
         android:layout_marginBottom="46dp"

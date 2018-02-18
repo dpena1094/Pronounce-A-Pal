@@ -9,42 +9,41 @@
     tools:layout_editor_absoluteY="25dp">
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/Signup1MaleButton"
         android:layout_width="176dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="36dp"
-        android:layout_marginTop="149dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="48dp"
         android:alpha="0.0
 "
         android:text="ToggleButton"
-        app:layout_constraintBottom_toTopOf="@+id/toggleButton3"
+        app:layout_constraintBottom_toTopOf="@+id/Signup1FemaleButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ToggleButton
-        android:id="@+id/toggleButton2"
+        android:id="@+id/Signup1OtherButton"
         android:layout_width="182dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="182dp"
+        android:layout_marginBottom="206dp"
         android:alpha="0.0
 "
         android:text="ToggleButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toggleButton3" />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ToggleButton
-        android:id="@+id/toggleButton3"
+        android:id="@+id/Signup1FemaleButton"
         android:layout_width="176dp"
         android:layout_height="54dp"
-        android:layout_marginBottom="39dp"
+        android:layout_marginBottom="60dp"
         android:alpha="0.0
 "
         android:text="ToggleButton"
-        app:layout_constraintBottom_toTopOf="@+id/toggleButton2"
+        app:layout_constraintBottom_toTopOf="@+id/Signup1OtherButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toggleButton" />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
