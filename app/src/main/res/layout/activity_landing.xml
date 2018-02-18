@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/landing_page"
     tools:context="edu.csun.team5.pronounce_a_pal.LandingActivity">
 
@@ -10,9 +11,10 @@
         android:id="@+id/myButton"
         android:layout_width="match_parent"
         android:layout_height="47.0dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/SignupButton"
         android:text="Speech Evaluation"
-        android:layout_marginBottom="127.0dp" />
+        android:layout_marginBottom="20dp" />
 
     <!-- Position goes to (0,0) when starting.
     <ToggleButton
@@ -28,13 +30,13 @@
 <<<<<<< HEAD
         tools:layout_editor_absoluteX="41dp"
         tools:layout_editor_absoluteY="410dp" />
-        -->
-=======
+
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
-
+        -->
     <ToggleButton
         android:id="@+id/SignupButton"
         android:layout_width="0dp"
@@ -49,5 +51,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
->>>>>>> c8e951168f8cb4572e26046c17451c8a7d931e6b
 </android.support.constraint.ConstraintLayout>
