@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/record_initial__2"
+    tools:context="edu.csun.team5.pronounce_a_pal.SignUp2Activity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="232dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginStart="69dp"
+        android:alpha="0.0
+"
+        android:text="ToggleButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toggleButton2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="62dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="159dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginTop="283dp"
+        android:alpha="0.0
+"
+        android:text="ToggleButton"
+        app:layout_constraintBottom_toTopOf="@+id/toggleButton5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/toggleButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton5"
+        android:layout_width="125dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="41dp"
+        android:alpha="0.0
+"
+        android:text="ToggleButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton2" />
+
+
+</android.support.constraint.ConstraintLayout>
