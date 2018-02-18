@@ -14,7 +14,7 @@ public class RecordInitial2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_record_initial2);
 
-        final Button startSpeechButton = findViewById(R.id.toggleButtonRecordInitial4Button);
+        final Button startSpeechButton = findViewById(R.id.toggleButtonRecordInitial2Button);
 
         startSpeechButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
