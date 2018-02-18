@@ -9,7 +9,7 @@
     tools:layout_editor_absoluteY="25dp">
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/SignupContinueButton"
         android:layout_width="184dp"
         android:layout_height="0dp"
         android:layout_marginBottom="180dp"

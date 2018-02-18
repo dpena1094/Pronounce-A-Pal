@@ -13,8 +13,8 @@ public class LandingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
 
-        final Button signupButton = findViewById(R.id.SignupButton);
-        final Button loginButton = findViewById(R.id.LoginButton);
+        final Button signupButton = findViewById(R.id.LandingSignupButton);
+        final Button loginButton = findViewById(R.id.LandingLoginButton);
 
         signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
