@@ -22,7 +22,6 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".TrainingActivity" />
         <activity android:name=".EvaluationActivity" />
-        <activity android:name=".ResultsActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".SignUpActivity" />
