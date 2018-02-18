@@ -22,6 +22,7 @@ public class LandingActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(LandingActivity.this, TrainingActivity.class);//view.getContext(), TrainingActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 

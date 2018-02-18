@@ -1,7 +1,10 @@
 package edu.csun.team5.pronounce_a_pal;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class SignUp5Activity extends AppCompatActivity {
 

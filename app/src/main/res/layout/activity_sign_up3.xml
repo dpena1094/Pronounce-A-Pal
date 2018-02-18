@@ -8,27 +8,29 @@
     tools:context="edu.csun.team5.pronounce_a_pal.SignUp3Activity">
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/Signup3EvaluateButton"
         android:layout_width="224dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="165dp"
+        android:layout_marginBottom="92dp"
         android:alpha="0.0
 "
         android:text="ToggleButton"
+        app:layout_constraintBottom_toTopOf="@+id/Signup3ContinueButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ToggleButton
-        android:id="@+id/toggleButton2"
+        android:id="@+id/Signup3ContinueButton"
         android:layout_width="224dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="224dp"
+        android:layout_marginBottom="260dp"
         android:alpha="0.0
 "
         android:text="ToggleButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

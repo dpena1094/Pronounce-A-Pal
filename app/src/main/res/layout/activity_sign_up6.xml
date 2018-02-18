@@ -8,15 +8,16 @@
     tools:context="edu.csun.team5.pronounce_a_pal.SignUp6Activity">
 
     <ToggleButton
-        android:id="@+id/toggleButton2"
+        android:id="@+id/Signup6ContinueButton"
         android:layout_width="176dp"
         android:layout_height="41dp"
-        android:layout_marginBottom="143dp"
+        android:layout_marginBottom="172dp"
         android:alpha="0.0
 "
         android:text="ToggleButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
