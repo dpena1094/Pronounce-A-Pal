@@ -12,5 +12,16 @@ public class SignUp5Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up5);
+
+        final Button continueButton = findViewById(R.id.Signup5ContinueButton);
+
+        continueButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SignUp5Activity.this, RecordInitial1Activity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }
