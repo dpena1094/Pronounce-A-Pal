@@ -4,14 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home_3"
+<<<<<<< HEAD:app/src/main/res/layout/home__2.xml
+    android:background="@drawable/home_4"
     tools:context="edu.csun.team5.pronounce_a_pal.SignUp2Activity"
     tools:layout_editor_absoluteY="25dp">
+=======
+    android:background="@drawable/home_2"
+    tools:context="edu.csun.team5.pronounce_a_pal.Home2Activity">
+>>>>>>> 8790bc200ee47881b59b513a24c299cc6bb3e226:app/src/main/res/layout/activity_home2.xml
 
     <ToggleButton
         android:id="@+id/toggleButton"
-        android:layout_width="76dp"
-        android:layout_height="46dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="67dp"
         android:layout_marginEnd="42dp"
         android:layout_marginStart="72dp"
@@ -26,8 +31,8 @@
 
     <ToggleButton
         android:id="@+id/toggleButton2"
-        android:layout_width="92dp"
-        android:layout_height="47dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="66dp"
         android:layout_marginEnd="71dp"
         android:alpha="0.0
@@ -40,7 +45,7 @@
 
     <ToggleButton
         android:id="@+id/toggleButton3"
-        android:layout_width="87dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="53dp"
         android:layout_marginTop="174dp"
@@ -49,14 +54,13 @@
         android:text="ToggleButton"
         app:layout_constraintBottom_toTopOf="@+id/toggleButton2"
         app:layout_constraintEnd_toEndOf="@+id/toggleButton2"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/toggleButton2"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ToggleButton
         android:id="@+id/toggleButton4"
-        android:layout_width="94dp"
-        android:layout_height="45dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="115dp"
         android:layout_marginEnd="71dp"
         android:alpha="0.0
@@ -70,7 +74,7 @@
     <ToggleButton
         android:id="@+id/toggleButton5"
         android:layout_width="0dp"
-        android:layout_height="45dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="160dp"
         android:layout_marginEnd="41dp"
         android:layout_marginStart="72dp"
@@ -81,6 +85,5 @@
         app:layout_constraintEnd_toStartOf="@+id/toggleButton4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toggleButton" />
-
 
 </android.support.constraint.ConstraintLayout>

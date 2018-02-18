@@ -29,7 +29,17 @@
         <activity android:name=".SignUp3Activity" />
         <activity android:name=".ResultActivity" />
         <activity android:name=".Result1Activity" />
-        <activity android:name=".Result2Activity"></activity>
+        <activity android:name=".Result2Activity" />
+        <activity android:name=".Home1Activity" />
+        <activity android:name=".Home2Activity" />
+        <activity android:name=".Home3Activity" />
+        <activity android:name=".FailActivity" />
+        <activity android:name=".Fail1Activity" />
+        <activity android:name=".SignUp4Activity" />
+        <activity android:name=".SignUp5Activity" />
+        <activity android:name=".SignUp6Activity" />
+        <activity android:name=".SignUp7Activity" />
+        <activity android:name=".SignUp8Activity" />
     </application>
 
 </manifest>

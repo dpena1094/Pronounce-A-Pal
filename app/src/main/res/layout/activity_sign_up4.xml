@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/sign_up_4"
-    tools:context="edu.csun.team5.pronounce_a_pal.SignUp2Activity"
-    tools:layout_editor_absoluteY="25dp">
+    tools:context="edu.csun.team5.pronounce_a_pal.SignUp4Activity">
 
     <ToggleButton
         android:id="@+id/toggleButton2"
