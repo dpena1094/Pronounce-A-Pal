@@ -4,32 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sign_up3"
-    tools:context="edu.csun.team5.pronounce_a_pal.LandingActivity"
-    tools:layout_editor_absoluteY="25dp">
+    android:background="@drawable/sign_up2"
+    tools:context="edu.csun.team5.pronounce_a_pal.SignUp2Activity">
 
     <ToggleButton
         android:id="@+id/toggleButton"
-        android:layout_width="224dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="165dp"
-        android:alpha="0.0
-"
-        android:text="ToggleButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ToggleButton
-        android:id="@+id/toggleButton2"
-        android:layout_width="224dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="224dp"
+        android:layout_marginBottom="108dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
         android:alpha="0.0
 "
         android:text="ToggleButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

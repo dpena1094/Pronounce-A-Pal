@@ -22,7 +22,11 @@
         <activity android:name=".EvaluationActivity" />
         <activity android:name=".ResultsActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SignUp2Activity" />
+        <activity android:name=".SignUp1Activity" />
+        <activity android:name=".SignUp3Activity"></activity>
     </application>
 
 </manifest>
